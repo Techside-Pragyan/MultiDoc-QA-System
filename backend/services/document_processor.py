@@ -2,7 +2,7 @@ import os
 import PyPDF2
 import docx
 from pptx import Presentation
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from sqlalchemy.orm import Session
 from backend.database import models
 from backend.vector_store.faiss_store import faiss_store
